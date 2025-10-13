@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Natalia Navarro</div>
+            <ul class="nav-links">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="resume.html">Resume</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <div class="profile-section">
+                    <img src="images/profile.jpg" alt="Natalia Navarro" class="profile-pic">
+                    <h1>Welcome to My Portfolio</h1>
+                    <p class="tagline">Showcasing creativity, growth, and professional excellence</p>
+                    <div class="hero-links">
+                        <a href="https://linkedin.com" target="_blank" class="social-link">LinkedIn</a>
+                        <a href="resume.html" class="cta-button">View Resume</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="intro-section">
+            <div class="container">
+                <h2>What You'll Find Here</h2>
+                <p class="intro-text">This portfolio is a reflection of my journey—showcasing personal projects, creative work, professional accomplishments, and insights into who I am. Explore to see my progression, skills, and the evolution of my work over the years.</p>
+            </div>
+        </section>
+
+        <section class="features-section">
+            <div class="container">
+                <div class="feature-grid">
+                    <div class="feature-card">
+                        <div class="feature-icon">🎨</div>
+                        <h3>Creative Projects</h3>
+                        <p>Explore my personal projects and creative endeavors that showcase my growth and development over time.</p>
+                        <a href="projects.html" class="feature-link">View Projects →</a>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">📄</div>
+                        <h3>Professional Resume</h3>
+                        <p>Access my comprehensive online resume with my skills, experience, and professional background.</p>
+                        <a href="resume.html" class="feature-link">View Resume →</a>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">✍️</div>
+                        <h3>Personal Blog</h3>
+                        <p>Read about my experiences, insights, and get to know the person behind the portfolio.</p>
+                        <a href="blog.html" class="feature-link">Read Blog →</a>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">📸</div>
+                        <h3>Visual Gallery</h3>
+                        <p>Browse through images documenting my journey, work progression, and key accomplishments.</p>
+                        <a href="gallery.html" class="feature-link">View Gallery →</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="personal-promo">
+            <div class="container">
+                <h2>Let's Connect</h2>
+                <p>I'm always open to new opportunities, collaborations, and conversations. Whether you're an employer, fellow creative, or just someone interested in connecting, I'd love to hear from you.</p>
+                <a href="contact.html" class="cta-button-large">Get In Touch</a>
+            </div>
+        </section>
+
+        <section class="sitemap-section">
+            <div class="container">
+                <h2>Site Navigation</h2>
+                <div class="sitemap-grid">
+                    <div class="sitemap-column">
+                        <h3>About</h3>
+                        <ul>
+                            <li><a href="about.html">My Story</a></li>
+                            <li><a href="about.html#skills">Skills</a></li>
+                            <li><a href="about.html#experience">Experience</a></li>
+                        </ul>
+                    </div>
+                    <div class="sitemap-column">
+                        <h3>Work</h3>
+                        <ul>
+                            <li><a href="projects.html">All Projects</a></li>
+                            <li><a href="resume.html">Resume</a></li>
+                            <li><a href="gallery.html">Gallery</a></li>
+                        </ul>
+                    </div>
+                    <div class="sitemap-column">
+                        <h3>Content</h3>
+                        <ul>
+                            <li><a href="blog.html">Blog Posts</a></li>
+                            <li><a href="blog.html#recent">Recent Updates</a></li>
+                        </ul>
+                    </div>
+                    <div class="sitemap-column">
+                        <h3>Connect</h3>
+                        <ul>
+                            <li><a href="contact.html">Contact Form</a></li>
+                            <li><a href="https://linkedin.com">LinkedIn</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">
+                <p><strong>Natalia Navarro</strong></p>
+                <p>Professional Portfolio</p>
+                <div class="social-icons">
+                    <a href="https://instagram.com" target="_blank" aria-label="Instagram">📷</a>
+                    <a href="https://linkedin.com" target="_blank" aria-label="LinkedIn">💼</a>
+                    <a href="https://twitter.com" target="_blank" aria-label="Twitter">🐦</a>
+                </div>
+            </div>
+            <div class="footer-links">
+                <p>© 2025 Natalia Navarro. All rights reserved.</p>
+                <p><a href="contact.html">Contact</a> | <a href="resume.html">Resume</a></p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
